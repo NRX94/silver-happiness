@@ -18,7 +18,7 @@ while(True):
     if suit_if_exist(info)==False:
         continue
 
-    title = info['data']['name']
+    title = info['data']['item']['name']
 
     suit_create_dir(title)
 
